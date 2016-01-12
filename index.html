@@ -198,7 +198,9 @@
     <div class="article-entry" itemprop="articleBody">
       
         <h1 id="u4E00_u3001_u5B89_u88C5curl"><a href="#u4E00_u3001_u5B89_u88C5curl" class="headerlink" title="一、安装curl"></a>一、安装curl</h1><p><a href="http://pan.baidu.com/s/1skwVD5F" target="_blank" rel="external">点击下载</a></p>
-<p>###下载之后将curl放置在“C:\Windows\System32”路径下边</p>
+<blockquote>
+<p>下载之后将curl.exe放置在“C:\Windows\System32”路径下边</p>
+</blockquote>
 <h1 id="u4E8C_u3001_u5EFA_u7ACB_u6279_u5904_u7406_u6587_u4EF6auto-hosts-bat"><a href="#u4E8C_u3001_u5EFA_u7ACB_u6279_u5904_u7406_u6587_u4EF6auto-hosts-bat" class="headerlink" title="二、建立批处理文件auto-hosts.bat"></a>二、建立批处理文件auto-hosts.bat</h1><p>用nodepad++或者subline打开文件，然后将下列代码粘贴进去：  </p>
 <pre><code>curl  -k -o hosts  https://raw.githubusercontent.com/racaljk/hosts/master/hosts
 move /Y hosts C:\Windows\System32\drivers\etc\hosts 
